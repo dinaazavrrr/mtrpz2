@@ -30,7 +30,10 @@ class ArrayList {
   }
 
   get(index) {
-    return null; //помилка спеціально зроблена
+    if (index < 0 || index >= this.items.length) {
+      throw new Error("Invalid index");
+    }
+    return this.items[index]; //знову правильно
   }
 
   clone() {
