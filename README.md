@@ -69,3 +69,6 @@ This project uses GitHub Actions to run Jest tests on every push to ```main```.
 Unit testing helped catch regression after a minor intentional break. CI clearly demonstrated failure and success, making the development process transparent and reliable.
 
  "Testing saves time, especially when refactoring."
+
+### Commit with Failed Tests:
+[73f4583] (https://github.com/dinaazavrrr/mtrpz2/commit/73f45836c72e850a65fecedf9b6aac9822465769) — intentionally broke one test to demonstrate CI failure.
