@@ -8,7 +8,7 @@ It supports both *interactive* and *file-based (non-interactive)* modes, and han
 
 ## Variant
 
-Student ID mod 4 = 2 → Implement using:
+3114 mod 4 = 2 → Implement using:
 
  -First implementation: *built-in array-based list*
 
